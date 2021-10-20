@@ -1,0 +1,52 @@
+.bgHeader {
+    background-image: url("../backgroundImg/Background-Header.png");
+    background-position: center top;
+    background-size: cover;
+}
+
+.containerHeader {
+    padding-top: 4rem;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentHeader {
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.textFirst {
+    font-size: 200%;
+}
+
+.textSecond {
+    font-size: 400%;
+}
+
+.btn-yello {
+    padding-bottom: 5rem;
+}
+
+.btn-yello button {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    font-family: serif;
+    font-style: unset;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .containerHeader {}
+}
