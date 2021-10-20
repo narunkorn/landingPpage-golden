@@ -1,0 +1,27 @@
+.containerOur {
+    margin: auto;
+    width: 80%;
+    background-color: #f6fafa;
+}
+
+.texttOur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 0.2;
+}
+
+.imageGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.image {
+    background-color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 0.5;
+}

@@ -21,7 +21,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" onClick={close}>
+            <a href="#service" onClick={close}>
               SERVICE
             </a>
           </li>
