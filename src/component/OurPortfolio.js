@@ -10,35 +10,35 @@ const OurPortfolio = () => {
 
         <div className="imageGroup">
           <div className="image">
-            <img src="myimg/m-1.jpg" alt="img1" />
+            <img src="myImg/forest.jpg" />
             <h4>Ebony & Ivory</h4>
             <p>Branding</p>
           </div>
-          {/* <div className="image">
-            <img src="myimg/image-2.png" alt="img2" />
+          <div className="image">
+            <img src="myimg/traval.jpg" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myimg/image-3.png" alt="img3" />
+            <img src="myimg/readbook.jpg" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myimg/image-4.png" alt="img4" />
+            <img src="myimg/mountain.jpg" />
             <h4>Vinyl Recordy</h4>
             <p>Product Mock-Up</p>
           </div>
           <div className="image">
-            <img src="myimg/image-5.png" alt="img5" />
+            <img src="myImg/forest.jpg" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
           </div>
           <div className="image">
-            <img src="myimg/image-6.png" alt="img6" />
+            <img src="myimg/traval.jpg" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
