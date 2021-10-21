@@ -15,17 +15,17 @@ const OurPortfolio = () => {
             <p>Branding</p>
           </div>
           <div className="image">
-            <img src="myimg/traval.jpg" />
+            <img src="myimg/forest.jpg" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myimg/readbook.jpg" />
+            <img src="myimg/forest.jpg" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myimg/mountain.jpg" />
+            <img src="myimg/forest.jpg" />
             <h4>Vinyl Recordy</h4>
             <p>Product Mock-Up</p>
           </div>
@@ -35,7 +35,7 @@ const OurPortfolio = () => {
             <p>Web Design</p>
           </div>
           <div className="image">
-            <img src="myimg/traval.jpg" />
+            <img src="myimg/forest.jpg" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
           </div>
