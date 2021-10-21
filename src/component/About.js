@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div className="containerAbout">
       <div className="contentAbout">
-        <img src="myImg/forest.jpg" />
+        <img src="myImg/traval.jpg" />
       </div>
     </div>
   );
