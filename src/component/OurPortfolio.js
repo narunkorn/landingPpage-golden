@@ -14,7 +14,7 @@ const OurPortfolio = () => {
             <h4>Ebony & Ivory</h4>
             <p>Branding</p>
           </div>
-          <div className="image">
+          {/* <div className="image">
             <img src="myimg/image-2.png" alt="img2" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
@@ -38,7 +38,7 @@ const OurPortfolio = () => {
             <img src="myimg/image-6.png" alt="img6" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
