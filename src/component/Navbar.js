@@ -26,12 +26,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" onClick={close}>
+            <a href="#Portfolio" onClick={close}>
               PORTFOLIO
             </a>
           </li>
           <li>
-            <a href="#" onClick={close}>
+            <a href="#about" onClick={close}>
               ABOUT
             </a>
           </li>
