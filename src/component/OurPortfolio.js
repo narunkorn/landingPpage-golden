@@ -10,7 +10,7 @@ const OurPortfolio = () => {
 
         <div className="imageGroup">
           <div className="image">
-            <img src="myImg/forest.jpg" />
+            <img src="myimg/image-1.png" alt="img1" />
             <h4>Ebony & Ivory</h4>
             <p>Branding</p>
           </div>
