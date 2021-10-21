@@ -10,32 +10,32 @@ const OurPortfolio = () => {
 
         <div className="imageGroup">
           <div className="image">
-            <img src="myImg/image-1.png" />
+            <img src="pic/image-1.png" />
             <h4>Ebony & Ivory</h4>
             <p>Branding</p>
           </div>
           <div className="image">
-            <img src="myImg/image-2.png" />
+            <img src="pic/image-2.png" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myImg/image-3.png" />
+            <img src="pic/image-3.png" />
             <h4>Smart Stationary</h4>
             <p>Print Design</p>
           </div>
           <div className="image">
-            <img src="myImg/image-4.png" />
+            <img src="pic/image-4.png" />
             <h4>Vinyl Recordy</h4>
             <p>Product Mock-Up</p>
           </div>
           <div className="image">
-            <img src="myImg/image-5.png" />
+            <img src="pic/image-5.png" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
           </div>
           <div className="image">
-            <img src="myImg/image-6.png" />
+            <img src="pic/image-6.png" />
             <h4>Treehouse Template</h4>
             <p>Web Design</p>
           </div>
