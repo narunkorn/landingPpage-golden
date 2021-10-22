@@ -1,24 +1,17 @@
 import "./Contact.css";
 import React from "react";
 import { useState } from "react";
+import PopUp from "./PopUp";
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [massage, setMassage] = useState("");
-  const onSubmit = (e) => {
-    e.preventDefault();
-    alert(`
-        Name: ${name}
-         E-mail: ${email}
-         Subject: ${subject}
-         Massage: ${massage}`);
-  };
 
   return (
     <div className="bgContact">
       <div className="containerContact" id="contact">
-        <form onSubmit={onSubmit} className="contentContact">
+        <form className="contentContact">
           <div className="titleContact">
             <h1>Contact</h1>
             <p>lorem ipsum dolor sit amet, consectetur adip</p>
@@ -63,7 +56,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="btn-contact button">
-            <button type="submit">submit</button>
+            <PopUp
+              Myname={name}
+              Myemail={email}
+              Mysubject={subject}
+              Mymassage={massage}
+            />
           </div>
         </form>
       </div>

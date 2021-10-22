@@ -3,6 +3,7 @@ import Service from "../component/Service";
 import OurPortfolio from "../component/OurPortfolio";
 import About from "../component/About";
 import Contact from "../component/Contact";
+import PopUp from "../component/PopUp";
 const Page = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Page = () => {
       <OurPortfolio />
       <About />
       <Contact />
+      {/* <PopUp /> */}
     </div>
   );
 };
