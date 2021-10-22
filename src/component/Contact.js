@@ -6,7 +6,8 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [massage, setMassage] = useState("");
-  const onSubmit = () => {
+  const onSubmit = (e) => {
+    e.preventDefault();
     alert(`
         Name: ${name}
          E-mail: ${email}
