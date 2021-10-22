@@ -5,7 +5,8 @@ function PopUp(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => {
+  const handleShow = (e) => {
+    e.preventDefault();
     {
       props.Myname ? setShow(true) : setShow(false);
     }
