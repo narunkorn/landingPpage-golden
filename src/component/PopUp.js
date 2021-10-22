@@ -4,7 +4,9 @@ import { useState } from "react";
 function PopUp(props) {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+  };
   const handleShow = (e) => {
     e.preventDefault();
     {
