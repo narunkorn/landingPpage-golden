@@ -36,7 +36,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" onClick={close}>
+            <a href="#contact" onClick={close}>
               CONTACT
             </a>
           </li>

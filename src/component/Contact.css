@@ -1,0 +1,68 @@
+.bgContact {
+    background-image: url('../backgroundImg/Background-Footer.png');
+}
+
+.containerContact {
+    margin: auto;
+    width: 80%;
+}
+
+.contentContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleContact {
+    text-align: center;
+    color: white;
+    line-height: 0.5;
+}
+
+.inputContact {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style: none
+}
+
+.inputContact li {
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.btn-contact button {
+    width: 150%;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-style: unset;
+    background-color: rgb(255, 218, 6);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px white;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .inputContact {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .inputContact li {
+        margin-bottom: 1rem;
+        padding-right: 0rem;
+    }
+}
